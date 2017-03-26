@@ -1,0 +1,10 @@
+---
+name: why_do_we_have_rack
+position: 4
+type: list-slide
+sections:
+  title: Why do we have Rack?
+  bullet_list:
+    - CGI - The first dynamic websites
+    - Web Server Modules
+    - App Servers separate from the web server

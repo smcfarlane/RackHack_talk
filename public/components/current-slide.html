@@ -1,0 +1,49 @@
+
+<link rel="import" href="/components/title-slide.html">
+<link rel="import" href="/components/content-slide.html">
+<link rel="import" href="/components/list-slide.html">
+<link rel="import" href="/components/iframe-slide.html">
+<link rel="import" href="/components/code-slide.html">
+<link rel="import" href="/components/api-test-slide.html">
+
+<dom-module id="current-slide">
+  <template>
+    <style>
+      :host {
+        padding: 50px 100px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+      #slide {
+        height: 90vh;
+      }
+    </style>
+    <div id="slide"></div>
+  </template>
+  <script>
+    Polymer({
+      is: 'current-slide',
+
+      properties: {
+        currentSlideData: {
+          type: Object,
+          observer: '_slideChange'
+        }
+      },
+
+      _slideChange: function(data) {
+        this.$.slide.innerHTML = ''
+        try {
+          var slide = document.createElement(data.type)
+          slide.sections = data.sections
+          this.$.slide.appendChild(slide)
+        } catch(e) {
+          this.$.slide.innerHTML = '<h1>Could not load slide</h1>'
+        }
+      }
+    })
+  </script>
+</dom-module>

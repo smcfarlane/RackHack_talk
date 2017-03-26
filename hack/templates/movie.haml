@@ -1,0 +1,39 @@
+.row
+  .col-md-12
+    %h3= @movie.title
+.row
+  .col-md-12
+    %p= @movie.description
+  .col-md-12
+    %hr
+- @movie.reviews.each do |review|
+  .row
+    .col-md-8
+      %h4= review.title
+    .col-md-4
+      %strong Score: #{review.stars}
+    .col-md-12
+      %small= review.user.name
+    .col-md-12
+      %p= review.body
+    - if @current_user && @current_user.id == review.user_id
+      .col-md-12
+        %a.btn.btn-danger.pull-right{ href: "/hack-app/movies/#{@movie.id}/reviews/#{review.id}"} Remove
+- if @current_user
+  .row
+    .col-md-12
+      %h4 Add a new review
+    .col-md-12
+      %form{ action: "/hack-app/movies/#{@movie.id}/reviews", method: :post }
+        %input{ type: :hidden, name: 'review[user_id]', value: @current_user.id}
+        .form-group
+          %label Title
+          %input.form-control{ type: :text, name: 'review[title]' }
+        .form-group
+          %label Review
+          %textarea.form-control{ name: 'review[body]'}
+        .form-group
+          %label Score
+          %input.form-control{ type: :number, min: 0, max: 10, name: 'review[stars]' }
+        %input.btn.btn-primary{ type: :submit, value: 'Add New Review' }
+

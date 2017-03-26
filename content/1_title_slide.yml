@@ -1,0 +1,8 @@
+---
+name: Title Slide
+position: 1
+type: title-slide
+sections:
+  main:
+    title: Rack Hack
+    subtitle: Here is the talk's subtitle

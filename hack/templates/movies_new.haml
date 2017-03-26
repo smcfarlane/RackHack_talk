@@ -1,0 +1,12 @@
+.row
+  .col-md-8.col-md-offset-2
+    %h3 New Movie
+    %form{ action: '/hack-app/movies', method: :post }
+      .form-group
+        %label Title
+        %input.form-control{ type: :text, name: 'movie[title]'}
+      .form-group
+        %label Description
+        %textarea.form-control{ name: 'movie[description]' }
+      %input.btn.btn-default{ type: :submit, value: 'Create Movie' }
+    %a{ href: '/hack-app/' } Home

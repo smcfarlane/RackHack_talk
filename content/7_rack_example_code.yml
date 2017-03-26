@@ -1,0 +1,16 @@
+---
+name: Rack Example Code
+position: 7
+type: code-slide
+sections:
+  title: Rack Example Code
+  code: |2+
+
+    run lambda { |env|
+      hello_world = "hello world,
+      path_info: #{env['PATH_INFO']}"
+      env.each do |(k, v)|
+        hello_world << "\n    #{k}: #{v}"
+      end
+      [200, {}, [hello_world]]
+    }

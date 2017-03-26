@@ -1,0 +1,11 @@
+---
+name: What is rack
+position: 3
+type: list-slide
+sections:
+  title: What is Rack?
+  bullet_list:
+    - Web server interface for ruby app
+    - It abstract the web server
+    - Generally not something you need to think about
+    - It Just Works &trade;

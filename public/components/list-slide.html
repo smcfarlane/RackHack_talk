@@ -1,0 +1,50 @@
+<dom-module id="list-slide">
+  <template>
+    <style>
+      h1 {
+        width: 100%;
+        height: 10vh;
+        font-size: 72px;
+        text-align: center;
+      }
+      #content {
+        width: 100%;
+      }
+      li {
+        font-size: 36px;
+      }
+    </style>
+    <h1>{{title}}</h1>
+    <div id="content">
+      <ul id="list">
+      </ul>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'list-slide',
+
+      properties: {
+        sections: {
+          type: Object,
+          observer: '_setupNewSlide'
+        },
+        title: String,
+        list: {
+          type: Array,
+          observer: '_listChange'
+        }
+      },
+
+      _setupNewSlide: function(sections) {
+        this.title = sections.title
+        this.list = sections.bullet_list
+      },
+
+      _listChange: function(list) {
+        var listItems = list.map((item) => `<li class="style-scope list-slide">${item}</li>`).join('')
+        this.$.list.innerHTML = listItems
+      }
+    })
+  </script>
+</dom-module>

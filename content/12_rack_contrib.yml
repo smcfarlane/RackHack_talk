@@ -1,0 +1,16 @@
+---
+name: Rack Contrib
+position: 12
+type: list-slide
+sections:
+  title: Rack Contrib
+  bullet_list:
+  - A common set of useful middleware
+  - Rack::BackStage - Serves the content of a file if it exists
+  - Rack::Cookies - Cookie parser
+  - |
+    Rack::Access - limit access to certain paths of
+     your app to certain IPs
+  - |
+    Rack::TimeZone - gets the timezone from the
+     client via javascript

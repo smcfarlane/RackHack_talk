@@ -1,0 +1,997 @@
+# Logfile created on 2017-03-25 11:41:41 -0700 by logger.rb/56815
+I, [2017-03-25T11:41:48.065036 #6772]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T11:41:59.300532 #6772]  INFO -- : [GET] http://localhost:3000/hack-app/movies/1
+ params: {}
+I, [2017-03-25T13:05:35.066268 #6772]  INFO -- : [GET] http://localhost:3000/hack-app/movies/1
+ params: {}
+I, [2017-03-25T13:05:40.193451 #6772]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:05:41.693893 #6772]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:05:42.558604 #6772]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:05:43.288744 #6772]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:06:03.421261 #7653]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:06:05.960422 #7653]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:06:07.187963 #7653]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:06:08.474336 #7653]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:09:58.470642 #7653]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:10:29.679326 #8782]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:16:20.731608 #10091]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:37:41.308648 #16696]  INFO -- : [GET] http://localhost:3000/hack-app/log
+ params: {}
+I, [2017-03-25T13:45:12.999053 #17956]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T13:45:17.943992 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:45:20.122751 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:45:21.064964 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:45:21.703655 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:45:24.052381 #17956]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T13:45:25.769884 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:45:27.375402 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:45:28.154670 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:45:28.780407 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:45:29.418908 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:45:30.039775 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:47:49.496286 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:47:51.778965 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:47:52.590857 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:47:53.287941 #17956]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:48:12.431513 #19192]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T13:48:14.170783 #19192]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:48:15.482809 #19192]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:48:16.324105 #19192]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T13:57:31.269001 #22382]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:05:52.660192 #25406]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:05:54.514084 #25406]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:05:55.476446 #25406]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:05:56.396291 #25406]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:10:31.570803 #26661]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:10:58.902075 #26661]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:12:06.153501 #27344]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:12:29.377143 #27344]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:12:34.114210 #27344]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:14:48.172713 #28610]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:14:52.468307 #28610]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:14:54.875054 #28610]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:14:56.250950 #28610]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:14:57.226736 #28610]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:15:01.460920 #28610]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:15:02.311739 #28610]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:19:00.307679 #29762]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:19:01.899514 #29762]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:19:03.055588 #29762]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:19:08.457927 #29762]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:20:53.847577 #31177]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:22:05.804163 #31556]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:22:19.280024 #31731]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:22:22.002772 #31731]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:22:23.561444 #31731]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:22:24.462939 #31731]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:22:25.212779 #31731]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:22:27.809298 #31731]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:22:29.833620 #31731]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:22:30.522505 #31731]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:22:49.445890 #31846]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:23:20.542937 #31865]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:25:11.992775 #31865]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:25:13.527918 #31865]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:25:14.416635 #31865]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:25:15.094810 #31865]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:25:15.839505 #31865]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:48:38.837776 #33121]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:48:39.626745 #33121]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:48:40.557011 #33121]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:50:47.107262 #34371]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:50:52.745871 #34371]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:50:57.694857 #34371]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:51:08.045013 #34371]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:51:31.270895 #34506]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:51:33.571769 #34506]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:51:38.936989 #34506]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:51:40.043115 #34506]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:51:40.861380 #34506]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:53:33.440732 #34506]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:53:34.254388 #34506]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:53:52.542450 #34986]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:53:52.543240 #34986]  INFO -- : checked request spam count: 1
+I, [2017-03-25T14:53:59.736805 #34986]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:53:59.737418 #34986]  INFO -- : checked request spam count: 2
+I, [2017-03-25T14:54:03.495956 #34986]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:54:03.496874 #34986]  INFO -- : checked request spam count: 3
+I, [2017-03-25T14:57:14.814079 #35895]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:57:14.820848 #35895]  INFO -- : method match: true, route match: 
+I, [2017-03-25T14:57:21.011422 #35895]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:57:21.012458 #35895]  INFO -- : method match: true, route match: 
+I, [2017-03-25T14:57:59.831811 #36354]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:57:59.832343 #36354]  INFO -- : method match: true, route match: true
+I, [2017-03-25T14:57:59.832994 #36354]  INFO -- : checked request spam count: 1
+I, [2017-03-25T14:58:07.296276 #36354]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:58:07.297542 #36354]  INFO -- : method match: true, route match: true
+I, [2017-03-25T14:58:07.298417 #36354]  INFO -- : checked request spam count: 2
+I, [2017-03-25T14:58:11.188936 #36354]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T14:58:11.189035 #36354]  INFO -- : method match: true, route match: true
+I, [2017-03-25T14:58:11.189760 #36354]  INFO -- : checked request spam count: 3
+I, [2017-03-25T14:59:20.248283 #36354]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:59:20.248378 #36354]  INFO -- : method match: true, route match: true
+I, [2017-03-25T14:59:20.248991 #36354]  INFO -- : checked request spam count: 4
+I, [2017-03-25T14:59:21.461105 #36354]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:59:21.461194 #36354]  INFO -- : method match: true, route match: true
+I, [2017-03-25T14:59:21.461658 #36354]  INFO -- : checked request spam count: 5
+I, [2017-03-25T14:59:38.198693 #36354]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:59:38.198779 #36354]  INFO -- : method match: true, route match: true
+I, [2017-03-25T14:59:38.199251 #36354]  INFO -- : checked request spam count: 6
+I, [2017-03-25T14:59:39.528973 #36354]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T14:59:39.529076 #36354]  INFO -- : method match: true, route match: true
+I, [2017-03-25T14:59:39.529619 #36354]  INFO -- : checked request spam count: 7
+I, [2017-03-25T15:00:40.662453 #36354]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T15:00:40.662556 #36354]  INFO -- : method match: true, route match: true
+I, [2017-03-25T15:00:40.663144 #36354]  INFO -- : checked request spam count: 8
+I, [2017-03-25T15:01:02.706761 #36354]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T15:01:02.706871 #36354]  INFO -- : method match: true, route match: true
+I, [2017-03-25T15:01:02.707420 #36354]  INFO -- : checked request spam count: 9
+I, [2017-03-25T15:03:28.943608 #37958]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T15:03:28.955939 #37958]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:03:34.622748 #37958]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:03:34.622846 #37958]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:03:39.040241 #37958]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:03:39.041365 #37958]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:03:43.418898 #37958]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:03:43.418997 #37958]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:03:44.481359 #37958]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:03:44.481454 #37958]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:05:31.249268 #38638]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T15:05:31.249882 #38638]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:05:31.250681 #38638]  INFO -- : (?-mix:\/hack-app\/for\/spammers) | http://localhost:3000/hack-app
+I, [2017-03-25T15:05:33.760721 #38638]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:05:33.760820 #38638]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:05:33.760865 #38638]  INFO -- : (?-mix:\/hack-app\/for\/spammers) | http://localhost:3000/hack-app
+I, [2017-03-25T15:05:35.496630 #38638]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:05:35.496781 #38638]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:05:35.496888 #38638]  INFO -- : (?-mix:\/hack-app\/for\/spammers) | http://localhost:3000/hack-app
+I, [2017-03-25T15:05:42.781499 #38638]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:05:42.781703 #38638]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:05:42.781793 #38638]  INFO -- : (?-mix:\/hack-app\/for\/spammers) | http://localhost:3000/hack-app
+I, [2017-03-25T15:05:58.498230 #38638]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:05:58.498324 #38638]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:05:58.498365 #38638]  INFO -- : (?-mix:\/hack-app\/for\/spammers) | http://localhost:3000/hack-app
+I, [2017-03-25T15:07:01.799075 #39219]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T15:07:01.799395 #39219]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:07:01.799511 #39219]  INFO -- : (?-mix:\/hack-app\/for\/spammers) | http://localhost:3000/hack-app | 
+I, [2017-03-25T15:07:03.876165 #39219]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:07:03.876277 #39219]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:07:03.876341 #39219]  INFO -- : (?-mix:\/hack-app\/for\/spammers) | http://localhost:3000/hack-app | /for/spammers
+I, [2017-03-25T15:07:05.470931 #39219]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:07:05.471028 #39219]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:07:05.471082 #39219]  INFO -- : (?-mix:\/hack-app\/for\/spammers) | http://localhost:3000/hack-app | /for/spammers
+I, [2017-03-25T15:08:11.261393 #40570]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T15:08:11.261587 #40570]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:08:11.261642 #40570]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T15:08:12.968415 #40570]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:08:12.968513 #40570]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:08:12.968551 #40570]  INFO -- : (?-mix:\/for\/spammers) |  | /for/spammers
+I, [2017-03-25T15:08:15.226158 #40570]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:08:15.226251 #40570]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:08:15.226287 #40570]  INFO -- : (?-mix:\/for\/spammers) |  | /for/spammers
+I, [2017-03-25T15:08:16.374671 #40570]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:08:16.374768 #40570]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:08:16.374805 #40570]  INFO -- : (?-mix:\/for\/spammers) |  | /for/spammers
+I, [2017-03-25T15:09:39.722167 #41141]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T15:09:39.722389 #41141]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:09:39.722481 #41141]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T15:09:49.536083 #41141]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:09:49.536225 #41141]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:09:49.536264 #41141]  INFO -- : (?-mix:\/for\/spammers) |  | /for/spammers
+I, [2017-03-25T15:11:27.527246 #42112]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T15:11:27.527431 #42112]  INFO -- : method match: true, route match: false
+I, [2017-03-25T15:11:27.527500 #42112]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T15:11:32.905510 #42112]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T15:11:32.905647 #42112]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:40:25.004329 #42112]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T20:40:25.005466 #42112]  INFO -- : method match: true, route match: false
+I, [2017-03-25T20:40:25.005547 #42112]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T20:41:36.024743 #42112]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:41:36.025880 #42112]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:44:03.778653 #45137]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T20:44:03.780015 #45137]  INFO -- : method match: true, route match: false
+I, [2017-03-25T20:44:03.780092 #45137]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T20:44:05.879061 #45137]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:44:05.879278 #45137]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:45:11.036690 #45919]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T20:45:11.036900 #45919]  INFO -- : method match: true, route match: false
+I, [2017-03-25T20:45:11.037000 #45919]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T20:45:12.926564 #45919]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:45:12.926692 #45919]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:45:12.927631 #45919]  INFO -- : checked request spam count: 1
+I, [2017-03-25T20:45:14.357416 #45919]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:45:14.357514 #45919]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:45:14.358004 #45919]  INFO -- : checked request spam count: 2
+I, [2017-03-25T20:45:15.262309 #45919]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:45:15.262460 #45919]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:45:15.262535 #45919]  INFO -- : checked request spam count: 3
+I, [2017-03-25T20:48:01.081428 #45919]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T20:48:01.081581 #45919]  INFO -- : method match: true, route match: false
+I, [2017-03-25T20:48:01.081647 #45919]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T20:48:05.011804 #45919]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:48:05.011997 #45919]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:48:05.012118 #45919]  INFO -- : checked request spam count: 4
+I, [2017-03-25T20:52:02.852466 #47766]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T20:52:02.853689 #47766]  INFO -- : method match: true, route match: false
+I, [2017-03-25T20:52:02.853740 #47766]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T20:52:06.241526 #47766]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:52:06.241630 #47766]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:52:06.242309 #47766]  INFO -- : checked request spam count: 1
+I, [2017-03-25T20:52:09.195438 #47766]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:52:09.195533 #47766]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:52:09.195765 #47766]  INFO -- : checked request spam count: 2
+I, [2017-03-25T20:52:11.031448 #47766]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:52:11.031548 #47766]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:52:11.031820 #47766]  INFO -- : checked request spam count: 3
+I, [2017-03-25T20:53:40.288063 #47766]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T20:53:40.288152 #47766]  INFO -- : method match: true, route match: false
+I, [2017-03-25T20:53:40.288221 #47766]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T20:53:42.571446 #47766]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:53:42.571544 #47766]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:53:42.571765 #47766]  INFO -- : checked request spam count: 4
+I, [2017-03-25T20:53:51.470158 #47766]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T20:53:51.470247 #47766]  INFO -- : method match: true, route match: false
+I, [2017-03-25T20:53:51.470288 #47766]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T20:53:53.239205 #47766]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:53:53.239304 #47766]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:53:53.239544 #47766]  INFO -- : checked request spam count: 4
+I, [2017-03-25T20:56:15.142649 #48687]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T20:56:15.142880 #48687]  INFO -- : method match: true, route match: false
+I, [2017-03-25T20:56:15.142975 #48687]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T20:56:19.583338 #48687]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:56:19.583496 #48687]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:56:19.584309 #48687]  INFO -- : checked request spam count: 1
+I, [2017-03-25T20:56:20.913689 #48687]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:56:20.913789 #48687]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:56:20.914019 #48687]  INFO -- : checked request spam count: 2
+I, [2017-03-25T20:56:21.835473 #48687]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:56:21.835575 #48687]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:56:21.835808 #48687]  INFO -- : checked request spam count: 3
+I, [2017-03-25T20:57:29.885064 #48687]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T20:57:29.885153 #48687]  INFO -- : method match: true, route match: false
+I, [2017-03-25T20:57:29.885194 #48687]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T20:57:31.762144 #48687]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:57:31.762371 #48687]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:57:31.762862 #48687]  INFO -- : checked request spam count: 4
+I, [2017-03-25T20:59:13.541012 #49763]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T20:59:13.541434 #49763]  INFO -- : method match: true, route match: false
+I, [2017-03-25T20:59:13.541892 #49763]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T20:59:16.995544 #49763]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:59:16.995648 #49763]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:59:16.996303 #49763]  INFO -- : checked request spam count: 1
+I, [2017-03-25T20:59:18.243419 #49763]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:59:18.243529 #49763]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:59:18.243770 #49763]  INFO -- : checked request spam count: 2
+I, [2017-03-25T20:59:19.156831 #49763]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T20:59:19.156930 #49763]  INFO -- : method match: true, route match: true
+I, [2017-03-25T20:59:19.157220 #49763]  INFO -- : checked request spam count: 3
+I, [2017-03-25T21:00:53.835729 #50659]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:00:53.835843 #50659]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:00:53.835899 #50659]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:00:55.577190 #50659]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:00:55.577305 #50659]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:00:55.578099 #50659]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:00:56.855683 #50659]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:00:56.855781 #50659]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:00:56.856023 #50659]  INFO -- : checked request spam count: 2
+I, [2017-03-25T21:00:57.753438 #50659]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:00:57.753605 #50659]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:00:57.754530 #50659]  INFO -- : checked request spam count: 3
+I, [2017-03-25T21:01:47.455098 #51359]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:01:47.455207 #51359]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:01:47.455247 #51359]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:01:49.060974 #51359]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:01:49.061089 #51359]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:01:49.061783 #51359]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:01:51.001594 #51359]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:01:51.001730 #51359]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:01:51.001944 #51359]  INFO -- : checked request spam count: 2
+I, [2017-03-25T21:02:52.470573 #52569]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:02:52.470685 #52569]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:02:52.470742 #52569]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:02:54.777282 #52569]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:02:54.777533 #52569]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:02:54.779691 #52569]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:03:03.839148 #52569]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:03:03.840371 #52569]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:03:03.841194 #52569]  INFO -- : checked request spam count: 2
+I, [2017-03-25T21:03:05.327942 #52569]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:03:05.328041 #52569]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:03:05.328748 #52569]  INFO -- : checked request spam count: 3
+I, [2017-03-25T21:04:06.187014 #52569]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:04:06.187114 #52569]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:04:06.187178 #52569]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:04:09.578680 #52569]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:04:09.579047 #52569]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:04:09.580662 #52569]  INFO -- : checked request spam count: 4
+I, [2017-03-25T21:07:20.274932 #53845]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:07:20.275096 #53845]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:07:20.275158 #53845]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:07:22.005078 #53845]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:07:22.005181 #53845]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:07:22.006566 #53845]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:07:23.745861 #53845]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:07:23.745962 #53845]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:07:23.746816 #53845]  INFO -- : checked request spam count: 2
+I, [2017-03-25T21:07:24.603223 #53845]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:07:24.603332 #53845]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:07:24.604207 #53845]  INFO -- : checked request spam count: 3
+I, [2017-03-25T21:08:10.394739 #53845]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:08:10.394830 #53845]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:08:10.395483 #53845]  INFO -- : checked request spam count: 4
+I, [2017-03-25T21:09:09.601754 #53845]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:09:09.601848 #53845]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:09:09.602531 #53845]  INFO -- : checked request spam count: 4
+I, [2017-03-25T21:09:43.363781 #54724]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:09:43.363938 #54724]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:09:43.363990 #54724]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:09:45.288208 #54724]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:09:45.288470 #54724]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:09:45.289941 #54724]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:09:47.019061 #54724]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:09:47.019173 #54724]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:09:47.019901 #54724]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:09:48.436420 #54724]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:09:48.436580 #54724]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:09:48.437235 #54724]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:09:49.924564 #54724]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:09:49.924673 #54724]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:09:49.925342 #54724]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:12:01.656638 #54724]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:12:01.656738 #54724]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:12:01.657443 #54724]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:12:23.541969 #55533]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:12:23.542092 #55533]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:12:23.542156 #55533]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:12:25.316933 #55533]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:12:25.317035 #55533]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:12:25.318342 #55533]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:12:26.506246 #55533]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:12:26.506347 #55533]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:12:26.507031 #55533]  INFO -- : checked request spam count: 2
+I, [2017-03-25T21:12:27.558093 #55533]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:12:27.558192 #55533]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:12:27.558793 #55533]  INFO -- : checked request spam count: 3
+I, [2017-03-25T21:16:01.326379 #56795]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:16:01.326612 #56795]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:16:01.326675 #56795]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:16:03.185016 #56795]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:16:03.185127 #56795]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:16:03.186562 #56795]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:16:04.587523 #56795]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:16:04.587626 #56795]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:16:04.588351 #56795]  INFO -- : checked request spam count: 2
+I, [2017-03-25T21:16:05.564766 #56795]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:16:05.564870 #56795]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:16:05.565696 #56795]  INFO -- : checked request spam count: 3
+I, [2017-03-25T21:16:47.220893 #56795]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:16:47.220981 #56795]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:16:47.221662 #56795]  INFO -- : checked request spam count: 4
+I, [2017-03-25T21:17:02.198127 #56795]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:17:02.199364 #56795]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:17:02.200165 #56795]  INFO -- : checked request spam count: 4
+I, [2017-03-25T21:18:43.516682 #56795]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:18:43.519090 #56795]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:18:43.520383 #56795]  INFO -- : checked request spam count: 4
+I, [2017-03-25T21:19:40.285858 #56795]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:19:40.285964 #56795]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:19:40.286815 #56795]  INFO -- : checked request spam count: 4
+I, [2017-03-25T21:20:27.157334 #57964]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:20:27.157519 #57964]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:20:27.158002 #57964]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:20:28.545039 #57964]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:20:28.545154 #57964]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:20:28.546620 #57964]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:20:29.844973 #57964]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:20:29.845074 #57964]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:20:29.845868 #57964]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:20:31.006183 #57964]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:20:31.006283 #57964]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:20:31.007157 #57964]  INFO -- : checked request spam count: 1
+I, [2017-03-25T21:31:40.926336 #62647]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:31:40.927707 #62647]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:31:40.927794 #62647]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:31:42.886531 #62647]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:31:42.886633 #62647]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:32:14.207721 #63308]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:32:14.209059 #63308]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:32:14.209134 #63308]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:32:15.963614 #63308]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:32:15.963724 #63308]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:34:55.729555 #64111]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:34:55.732847 #64111]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:34:55.733535 #64111]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:34:57.191229 #64111]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:34:57.191353 #64111]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:37:21.722611 #65152]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:37:21.722853 #65152]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:37:21.722968 #65152]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:37:24.472119 #65152]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:37:24.472227 #65152]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:39:23.000720 #66099]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:39:23.000894 #66099]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:39:23.000957 #66099]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:39:24.778889 #66099]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:39:24.779010 #66099]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:40:10.447914 #66830]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:40:10.448337 #66830]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:40:10.448478 #66830]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:40:12.339906 #66830]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:40:12.340005 #66830]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:40:58.832271 #67272]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:40:58.832512 #67272]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:40:58.832624 #67272]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:41:00.738263 #67272]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:41:00.738365 #67272]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:43:30.439231 #67272]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:43:30.440066 #67272]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:43:30.440372 #67272]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:43:32.244302 #67272]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:43:32.244471 #67272]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:44:38.507451 #68600]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:44:38.508071 #68600]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:44:38.508201 #68600]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:44:41.474680 #68600]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:44:41.474784 #68600]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:45:24.747248 #69225]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:45:24.748775 #69225]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:45:24.749192 #69225]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:45:27.199627 #69225]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:45:27.199731 #69225]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:48:02.870693 #70799]  INFO -- : [GET] http://localhost:3000/hack-app
+ params: {}
+I, [2017-03-25T21:48:02.874868 #70799]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:48:02.874966 #70799]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:48:04.245012 #70799]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:48:04.245116 #70799]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:48:04.246111 #70799]  INFO -- : checked request spam count: 2
+I, [2017-03-25T21:48:06.909810 #70799]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:48:06.909915 #70799]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:48:06.910154 #70799]  INFO -- : checked request spam count: 3
+I, [2017-03-25T21:48:42.381228 #70799]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:48:42.381318 #70799]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:48:42.381585 #70799]  INFO -- : checked request spam count: 3
+I, [2017-03-25T21:49:05.379854 #70799]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:49:05.379945 #70799]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:49:05.380186 #70799]  INFO -- : checked request spam count: 3
+I, [2017-03-25T21:50:24.305265 #70799]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+ params: {}
+I, [2017-03-25T21:50:24.305390 #70799]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:50:24.305657 #70799]  INFO -- : checked request spam count: 3
+I, [2017-03-25T21:51:05.016785 #71951]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T21:51:05.016931 #71951]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:51:05.018199 #71951]  INFO -- : checked request spam count: 2
+I, [2017-03-25T21:51:08.849598 #71951]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T21:51:08.849707 #71951]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:51:08.849948 #71951]  INFO -- : checked request spam count: 3
+I, [2017-03-25T21:53:04.720210 #72531]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T21:53:04.720407 #72531]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:53:04.720473 #72531]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:53:06.219834 #72531]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T21:53:06.219937 #72531]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:53:07.714562 #72531]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T21:53:07.714669 #72531]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:53:07.715135 #72531]  INFO -- : checked request blocked spam count: 3
+I, [2017-03-25T21:54:42.601130 #73253]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T21:54:42.601251 #73253]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:54:42.601306 #73253]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:54:44.063568 #73253]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T21:54:44.063671 #73253]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:54:45.268348 #73253]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T21:54:45.268451 #73253]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:54:45.268703 #73253]  INFO -- : checked request blocked spam count: 3
+I, [2017-03-25T21:56:44.666211 #73932]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T21:56:44.666402 #73932]  INFO -- : SpamFighter called 2017-03-25 21:56:44 -0700
+I, [2017-03-25T21:56:44.666474 #73932]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:56:44.666526 #73932]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:56:57.678563 #73932]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T21:56:57.679912 #73932]  INFO -- : SpamFighter called 2017-03-25 21:56:57 -0700
+I, [2017-03-25T21:56:57.680008 #73932]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:58:28.676167 #74558]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T21:58:28.676371 #74558]  INFO -- : SpamFighter called 2017-03-25 21:58:28 -0700
+I, [2017-03-25T21:58:28.676460 #74558]  INFO -- : method match: true, route match: false
+I, [2017-03-25T21:58:28.676527 #74558]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T21:58:30.352339 #74558]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T21:58:30.352435 #74558]  INFO -- : SpamFighter called 2017-03-25 21:58:30 -0700
+I, [2017-03-25T21:58:30.352489 #74558]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:58:53.536283 #74558]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T21:58:53.536482 #74558]  INFO -- : SpamFighter called 2017-03-25 21:58:53 -0700
+I, [2017-03-25T21:58:53.536546 #74558]  INFO -- : method match: true, route match: true
+I, [2017-03-25T21:58:53.536600 #74558]  INFO -- : checked request blocked spam count: 3
+I, [2017-03-25T22:11:53.481788 #78202]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:11:53.481952 #78202]  INFO -- : SpamFighter called 2017-03-25 22:11:53 -0700
+I, [2017-03-25T22:11:53.482034 #78202]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:11:53.482099 #78202]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:11:55.152360 #78202]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:11:55.152461 #78202]  INFO -- : SpamFighter called 2017-03-25 22:11:55 -0700
+I, [2017-03-25T22:11:55.152525 #78202]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:11:57.724583 #78202]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:11:57.724684 #78202]  INFO -- : SpamFighter called 2017-03-25 22:11:57 -0700
+I, [2017-03-25T22:11:57.724748 #78202]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:12:18.025894 #78202]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:12:18.025990 #78202]  INFO -- : SpamFighter called 2017-03-25 22:12:18 -0700
+I, [2017-03-25T22:12:18.026042 #78202]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:16:41.420226 #80488]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:16:41.422066 #80488]  INFO -- : SpamFighter called 2017-03-25 22:16:41 -0700
+I, [2017-03-25T22:16:41.422173 #80488]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:16:41.422229 #80488]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:16:43.274886 #80488]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:16:43.274990 #80488]  INFO -- : SpamFighter called 2017-03-25 22:16:43 -0700
+I, [2017-03-25T22:16:43.275056 #80488]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:16:44.512395 #80488]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:16:44.512491 #80488]  INFO -- : SpamFighter called 2017-03-25 22:16:44 -0700
+I, [2017-03-25T22:16:44.512537 #80488]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:16:45.686274 #80488]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:16:45.686369 #80488]  INFO -- : SpamFighter called 2017-03-25 22:16:45 -0700
+I, [2017-03-25T22:16:45.686416 #80488]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:18:18.494089 #80488]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:18:18.495375 #80488]  INFO -- : SpamFighter called 2017-03-25 22:18:18 -0700
+I, [2017-03-25T22:18:18.495437 #80488]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:19:12.609294 #81270]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:19:12.614106 #81270]  INFO -- : SpamFighter called 2017-03-25 22:19:12 -0700
+I, [2017-03-25T22:19:12.614197 #81270]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:19:12.614278 #81270]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:19:16.666627 #81270]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:19:16.666732 #81270]  INFO -- : SpamFighter called 2017-03-25 22:19:16 -0700
+I, [2017-03-25T22:19:16.666800 #81270]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:19:18.419407 #81270]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:19:18.419501 #81270]  INFO -- : SpamFighter called 2017-03-25 22:19:18 -0700
+I, [2017-03-25T22:19:18.419552 #81270]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:19:19.735830 #81270]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:19:19.735923 #81270]  INFO -- : SpamFighter called 2017-03-25 22:19:19 -0700
+I, [2017-03-25T22:19:19.735970 #81270]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:19:19.736228 #81270]  INFO -- : checked request blocked spam count: 3
+I, [2017-03-25T22:21:50.719205 #81270]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:21:50.719288 #81270]  INFO -- : SpamFighter called 2017-03-25 22:21:50 -0700
+I, [2017-03-25T22:21:50.719330 #81270]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:21:50.719571 #81270]  INFO -- : checked request blocked spam count: 3
+I, [2017-03-25T22:23:12.881010 #82662]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:23:12.881246 #82662]  INFO -- : SpamFighter called 2017-03-25 22:23:12 -0700
+I, [2017-03-25T22:23:12.881354 #82662]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:23:12.881453 #82662]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:23:14.404409 #82662]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:23:14.404524 #82662]  INFO -- : SpamFighter called 2017-03-25 22:23:14 -0700
+I, [2017-03-25T22:23:14.404591 #82662]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:23:15.767260 #82662]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:23:15.767352 #82662]  INFO -- : SpamFighter called 2017-03-25 22:23:15 -0700
+I, [2017-03-25T22:23:15.767397 #82662]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:23:16.877515 #82662]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:23:16.877622 #82662]  INFO -- : SpamFighter called 2017-03-25 22:23:16 -0700
+I, [2017-03-25T22:23:16.877721 #82662]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:23:17.539136 #82662]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:23:17.539241 #82662]  INFO -- : SpamFighter called 2017-03-25 22:23:17 -0700
+I, [2017-03-25T22:23:17.539287 #82662]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:26:38.558438 #83503]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:26:38.560065 #83503]  INFO -- : SpamFighter called 2017-03-25 22:26:38 -0700
+I, [2017-03-25T22:26:38.560168 #83503]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:26:38.560229 #83503]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:26:40.162389 #83503]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:26:40.162486 #83503]  INFO -- : SpamFighter called 2017-03-25 22:26:40 -0700
+I, [2017-03-25T22:26:40.162532 #83503]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:26:42.240901 #83503]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:26:42.241003 #83503]  INFO -- : SpamFighter called 2017-03-25 22:26:42 -0700
+I, [2017-03-25T22:26:42.241067 #83503]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:26:43.081149 #83503]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:26:43.081241 #83503]  INFO -- : SpamFighter called 2017-03-25 22:26:43 -0700
+I, [2017-03-25T22:26:43.081285 #83503]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:28:51.176283 #84596]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:28:51.179285 #84596]  INFO -- : SpamFighter called 2017-03-25 22:28:51 -0700
+I, [2017-03-25T22:28:51.179774 #84596]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:28:51.179911 #84596]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:28:52.683285 #84596]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:28:52.683379 #84596]  INFO -- : SpamFighter called 2017-03-25 22:28:52 -0700
+I, [2017-03-25T22:28:52.683426 #84596]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:28:53.914467 #84596]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:28:53.914657 #84596]  INFO -- : SpamFighter called 2017-03-25 22:28:53 -0700
+I, [2017-03-25T22:28:53.914813 #84596]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:28:55.088731 #84596]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:28:55.088881 #84596]  INFO -- : SpamFighter called 2017-03-25 22:28:55 -0700
+I, [2017-03-25T22:28:55.088965 #84596]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:30:20.209739 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:20.209946 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:20 -0700
+I, [2017-03-25T22:30:20.210035 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:20.210103 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:20.263923 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:20.290432 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:20.290950 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:20 -0700
+I, [2017-03-25T22:30:20.291275 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:20.294128 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:20.335650 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:20.339352 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:20.339673 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:20 -0700
+I, [2017-03-25T22:30:20.339792 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:20.339856 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:20.371344 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:20.373628 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:20.373787 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:20 -0700
+I, [2017-03-25T22:30:20.373881 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:20.373968 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:20.415325 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:20.437059 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:20.437254 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:20 -0700
+I, [2017-03-25T22:30:20.437344 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:20.437409 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:20.473175 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:20.474732 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:20.474808 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:20 -0700
+I, [2017-03-25T22:30:20.474847 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:20.474880 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:20.495245 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:20.498825 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:20.498971 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:20 -0700
+I, [2017-03-25T22:30:20.499062 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:20.499255 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:20.524328 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:23.776511 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:23.776637 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:23 -0700
+I, [2017-03-25T22:30:23.776694 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:23.776740 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:23.824909 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:23.905175 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:23.908304 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:23 -0700
+I, [2017-03-25T22:30:23.909076 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:23.910761 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:23.949445 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:23.957377 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:23.957722 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:23 -0700
+I, [2017-03-25T22:30:23.957997 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:23.958332 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:23.987502 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:23.989999 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:23.990125 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:23 -0700
+I, [2017-03-25T22:30:23.990171 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:23.990208 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:24.009850 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:24.011537 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:24.011668 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:24 -0700
+I, [2017-03-25T22:30:24.011746 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:24.011823 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:24.030488 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:24.033222 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:24.033370 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:24 -0700
+I, [2017-03-25T22:30:24.033450 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:24.033516 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:24.053959 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:30:24.057341 #85435]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:30:24.057463 #85435]  INFO -- : SpamFighter called 2017-03-25 22:30:24 -0700
+I, [2017-03-25T22:30:24.057533 #85435]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:30:24.057586 #85435]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:30:24.078089 #85435]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:32:02.755587 #86337]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:32:02.761048 #86337]  INFO -- : SpamFighter called 2017-03-25 22:32:02 -0700
+I, [2017-03-25T22:32:02.762862 #86337]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:32:02.764090 #86337]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:32:02.870143 #86337]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:32:02.870241 #86337]  INFO -- : SpamFighter called 2017-03-25 22:32:02 -0700
+I, [2017-03-25T22:32:02.870296 #86337]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:32:02.870364 #86337]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:32:02.884719 #86337]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:32:02.884890 #86337]  INFO -- : SpamFighter called 2017-03-25 22:32:02 -0700
+I, [2017-03-25T22:32:02.884964 #86337]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:32:02.885032 #86337]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:32:02.919543 #86337]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:32:02.919813 #86337]  INFO -- : SpamFighter called 2017-03-25 22:32:02 -0700
+I, [2017-03-25T22:32:02.919955 #86337]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:32:02.920135 #86337]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:32:02.989901 #86337]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:32:02.990108 #86337]  INFO -- : SpamFighter called 2017-03-25 22:32:02 -0700
+I, [2017-03-25T22:32:02.990172 #86337]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:32:02.990222 #86337]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:32:03.012361 #86337]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:32:03.012512 #86337]  INFO -- : SpamFighter called 2017-03-25 22:32:03 -0700
+I, [2017-03-25T22:32:03.012577 #86337]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:32:03.012629 #86337]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:32:03.038317 #86337]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:32:03.038440 #86337]  INFO -- : SpamFighter called 2017-03-25 22:32:03 -0700
+I, [2017-03-25T22:32:03.038496 #86337]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:32:03.038543 #86337]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:33:03.397218 #86811]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:33:03.397400 #86811]  INFO -- : SpamFighter called 2017-03-25 22:33:03 -0700
+I, [2017-03-25T22:33:03.397471 #86811]  INFO -- : method match: true, route match: false
+I, [2017-03-25T22:33:03.397529 #86811]  INFO -- : (?-mix:\/for\/spammers) |  | 
+I, [2017-03-25T22:33:05.846416 #86811]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:33:05.846553 #86811]  INFO -- : SpamFighter called 2017-03-25 22:33:05 -0700
+I, [2017-03-25T22:33:05.846658 #86811]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:33:07.107429 #86811]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:33:07.107533 #86811]  INFO -- : SpamFighter called 2017-03-25 22:33:07 -0700
+I, [2017-03-25T22:33:07.107578 #86811]  INFO -- : method match: true, route match: true
+I, [2017-03-25T22:34:01.937363 #87262]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:34:01.937574 #87262]  INFO -- : SpamFighter called 2017-03-25 22:34:01 -0700
+I, [2017-03-25T22:34:04.403631 #87262]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:34:04.403757 #87262]  INFO -- : SpamFighter called 2017-03-25 22:34:04 -0700
+I, [2017-03-25T22:34:05.656336 #87262]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:34:05.656431 #87262]  INFO -- : SpamFighter called 2017-03-25 22:34:05 -0700
+I, [2017-03-25T22:34:05.657937 #87262]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:35:08.851360 #87262]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:35:08.851454 #87262]  INFO -- : SpamFighter called 2017-03-25 22:35:08 -0700
+I, [2017-03-25T22:35:12.611128 #87262]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:35:12.611338 #87262]  INFO -- : SpamFighter called 2017-03-25 22:35:12 -0700
+I, [2017-03-25T22:35:13.885031 #87262]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:35:13.885127 #87262]  INFO -- : SpamFighter called 2017-03-25 22:35:13 -0700
+I, [2017-03-25T22:35:14.710363 #87262]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:35:14.710457 #87262]  INFO -- : SpamFighter called 2017-03-25 22:35:14 -0700
+I, [2017-03-25T22:35:36.536486 #87262]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:35:36.536616 #87262]  INFO -- : SpamFighter called 2017-03-25 22:35:36 -0700
+I, [2017-03-25T22:36:43.543547 #87262]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:36:43.543671 #87262]  INFO -- : SpamFighter called 2017-03-25 22:36:43 -0700
+I, [2017-03-25T22:38:14.553105 #88319]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:38:14.553315 #88319]  INFO -- : SpamFighter called 2017-03-25 22:38:14 -0700
+I, [2017-03-25T22:38:16.252208 #88319]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:38:16.252394 #88319]  INFO -- : SpamFighter called 2017-03-25 22:38:16 -0700
+I, [2017-03-25T22:38:18.459276 #88319]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:38:18.459371 #88319]  INFO -- : SpamFighter called 2017-03-25 22:38:18 -0700
+I, [2017-03-25T22:38:18.459658 #88319]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:38:54.621272 #88319]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:38:54.621356 #88319]  INFO -- : SpamFighter called 2017-03-25 22:38:54 -0700
+I, [2017-03-25T22:38:58.468462 #88319]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:38:58.468581 #88319]  INFO -- : SpamFighter called 2017-03-25 22:38:58 -0700
+I, [2017-03-25T22:39:01.539482 #88319]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:39:01.539636 #88319]  INFO -- : SpamFighter called 2017-03-25 22:39:01 -0700
+I, [2017-03-25T22:41:38.074798 #89527]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:41:38.075015 #89527]  INFO -- : SpamFighter called 2017-03-25 22:41:38 -0700
+I, [2017-03-25T22:41:39.621715 #89527]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:41:39.621810 #89527]  INFO -- : SpamFighter called 2017-03-25 22:41:39 -0700
+I, [2017-03-25T22:41:40.696114 #89527]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:41:40.696208 #89527]  INFO -- : SpamFighter called 2017-03-25 22:41:40 -0700
+I, [2017-03-25T22:41:41.838479 #89527]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:41:41.838587 #89527]  INFO -- : SpamFighter called 2017-03-25 22:41:41 -0700
+I, [2017-03-25T22:44:37.142470 #90777]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:44:37.149619 #90777]  INFO -- : SpamFighter called 2017-03-25 22:44:37 -0700
+I, [2017-03-25T22:44:39.355856 #90777]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:44:39.355950 #90777]  INFO -- : SpamFighter called 2017-03-25 22:44:39 -0700
+I, [2017-03-25T22:44:40.862085 #90777]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:44:40.862283 #90777]  INFO -- : SpamFighter called 2017-03-25 22:44:40 -0700
+I, [2017-03-25T22:44:42.326091 #90777]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:44:42.326193 #90777]  INFO -- : SpamFighter called 2017-03-25 22:44:42 -0700
+I, [2017-03-25T22:44:42.327590 #90777]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:45:22.151147 #90777]  INFO -- : [GET] http://localhost:3000/hack-app/for/apammers
+I, [2017-03-25T22:45:22.151469 #90777]  INFO -- : SpamFighter called 2017-03-25 22:45:22 -0700
+I, [2017-03-25T22:45:22.174885 #90777]  INFO -- : [GET] http://localhost:3000/hack-app/__sinatra__/404.png
+I, [2017-03-25T22:45:22.175008 #90777]  INFO -- : SpamFighter called 2017-03-25 22:45:22 -0700
+I, [2017-03-25T22:45:26.155505 #90777]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:45:26.155591 #90777]  INFO -- : SpamFighter called 2017-03-25 22:45:26 -0700
+I, [2017-03-25T22:45:26.157062 #90777]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:50:20.213666 #90777]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:50:20.213749 #90777]  INFO -- : SpamFighter called 2017-03-25 22:50:20 -0700
+I, [2017-03-25T22:50:20.214061 #90777]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:51:31.254034 #90777]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:51:31.254592 #90777]  INFO -- : SpamFighter called 2017-03-25 22:51:31 -0700
+I, [2017-03-25T22:51:31.255066 #90777]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:51:32.041798 #90777]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:51:32.041886 #90777]  INFO -- : SpamFighter called 2017-03-25 22:51:32 -0700
+I, [2017-03-25T22:51:32.042190 #90777]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:52:18.202013 #92521]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:52:20.502676 #92521]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:52:20.503655 #92521]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:55:20.101581 #92521]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:55:20.104183 #92521]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:56:43.433811 #93662]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T22:56:45.369697 #93662]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:56:45.370871 #93662]  INFO -- : --- Request Ended ---
+I, [2017-03-25T22:57:57.020160 #93662]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T22:57:57.021859 #93662]  INFO -- : --- Request Ended ---
+I, [2017-03-25T23:02:20.688182 #95251]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-25T23:02:22.825125 #95251]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T23:02:24.695942 #95251]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T23:02:26.578779 #95251]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T23:02:26.580430 #95251]  INFO -- : --- Request Ended ---
+I, [2017-03-25T23:05:02.475418 #95251]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T23:05:06.059401 #95251]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T23:05:07.157882 #95251]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T23:05:07.158705 #95251]  INFO -- : --- Request Ended ---
+I, [2017-03-25T23:07:55.782497 #95251]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T23:07:57.974539 #95251]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T23:07:58.604307 #95251]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-25T23:07:58.605221 #95251]  INFO -- : --- Request Ended ---

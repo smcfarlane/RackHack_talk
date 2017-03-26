@@ -1,0 +1,12 @@
+---
+name: rack_basics
+position: 5
+type: list-slide
+sections:
+  title: Rack Basics
+  bullet_list:
+    - Simply a function + Environment
+    - Rack app is just a Proc
+    - Environment is a set of details from the request
+    - the return value is an array with a status, headers, and body
+    - "[ 200, { 'content-type' => 'text/html' }, [ body ] ]"

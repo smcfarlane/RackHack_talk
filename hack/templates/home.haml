@@ -1,0 +1,15 @@
+.row
+  .col-md-8
+    %h3 Movies
+  .col-md-4
+    %a.btn.btn-primary.pull-right{ href: '/hack-app/movies/new'} New Movie
+.row
+  - @movies.each do |movie|
+    .col-md-12
+      .col-md-4
+        %a{ href: "/hack-app/movies/#{movie.id}" }
+          %strong= movie.title
+      .col-md-6
+        %p= movie.description
+      .col-md-2
+        %p Reviews: #{movie.reviews.count}

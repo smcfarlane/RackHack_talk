@@ -1,0 +1,13 @@
+---
+name: Rack Gems
+position: 16
+type: list-slide
+sections:
+  title: Rack Gems
+  bullet_list:
+  - Rack_protection - part of sinatra, protects aginst a varitey of common attacks
+    on webapps
+  - Rack_cashe - cashe content for your webapp in rack before it gets to your app
+  - Rack_proxy - its a proxy
+  - Rack_csrf - csrf protection
+  - Rack_flash - rails like flash message handling for your rack app

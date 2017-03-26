@@ -1,0 +1,26 @@
+{
+  "name": "slide-webapp",
+  "authors": [
+    "stevenmcfarlane <stevemac72@gmail.com>"
+  ],
+  "description": "talk slides",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "iron-elements": "PolymerElements/iron-elements#^1.0.10",
+    "polymer": "^1.7.1",
+    "codemirror": "^5.22.2",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7",
+    "bootswatch": "^3.3.7"
+  }
+}

@@ -1,0 +1,20 @@
+---
+name: rack_contrib_more
+position: 13
+type: list-slide
+sections:
+  title: Rack Contrib, More...
+  bullet_list:
+  - Rack::Profiler - runs ruby profiling tools for the request
+  - |
+    Rack::MailExceptions - Catches exceptions
+     from the app and then sends useful information
+     to an email
+  - Rack::NestedParams - Post, put, and patch body parser
+  - |
+    Rack::Runtime - Sets the X-Runtime header to
+     the duration of the request
+  - |
+    Rack::Printout - Logs the environment, response,
+     and body content to the console
+    for every request

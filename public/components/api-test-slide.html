@@ -1,0 +1,143 @@
+<dom-module id="api-test-slide">
+  <template>
+    <style>
+      h1 {
+        width: 100%;
+        height: 10vh;
+        font-size: 72px;
+        text-align: center;
+      }
+      #content {
+        width: 100%;
+      }
+      .left {
+        width: 50%;
+        float: left;
+      }
+      .right {
+        width: 50%;
+        float: left;
+      }
+      .field {
+        margin: 10px 0;
+      }
+      .field label {
+        font-size: 32px;
+        display: block;
+      }
+      .field input {
+        width: 80%;
+        height: 30px;
+        font-size: 25px;
+      }
+      .field textarea {
+        width: 80%;
+        height: 400px;
+      }
+    </style>
+    <h1>{{title}}</h1>
+    <div id="content">
+      <div class="left">
+        <div class="field">
+          <label>Url</label>
+          <input type="text" value="{{url::input}}">
+        </div>
+        <div class="field">
+          <label>Method</label>
+          <select value="{{method::input}}">
+            <option>get</option>
+            <option>post</option>
+            <option>put</option>
+            <option>patch</option>
+            <option>delete</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Body</label>
+          <textarea value="{{body::input}}"></textarea>
+        </div>
+        <button id="submit" type="button" on-click="submitApiRequest">Submit</button>
+      </div>
+      <div class="right">
+        <h3>Headers</h3>
+        <div id="header"></div>
+        <h3>Response</h3>
+        <div id="response"></div>
+      </div>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'api-test-slide',
+
+      properties: {
+        sections: {
+          type: Object,
+          observer: '_setupNewSlide'
+        },
+        title: String,
+        urlBase: String,
+        url: String,
+        method: {
+          type: String,
+          value: () => 'get'
+        },
+        body: String,
+        responseHeader: {
+          type: Object,
+          observer: '_newHeaders'
+        },
+        responseData: {
+          type: Object,
+          observer: '_newResponse'
+        }
+      },
+
+      _setupNewSlide: function(sections) {
+        this.title = sections.title
+        this.urlBase = sections.url
+      },
+
+      _newResponse: function(res) {
+        var details = []
+        Object.keys(res).forEach(key => {
+          details.push(`<p><strong>${key}:</strong> ${res[key]}</p>`)
+        })
+        this.$.response.innerHTML = details.join('')
+      },
+
+      _newHeader: function(headers) {
+        var details = []
+        headers.entries.forEach(header => {
+          var [key, value] = header
+          details.push(`<p><strong>${key}:</strong> ${value}</p>`)
+        })
+        this.$.headers.innerHTML = details.join('')
+      },
+
+      _httpOptions: function() {
+        var options = {method: this.method}
+        if (['post', 'put', 'patch'].includes(this.method)) {
+          options['header'] = {'Content-Type': 'application/json'}
+          if (this.body) options['body'] = this.body
+        }
+        return options
+      },
+
+      submitApiRequest: function(e) {
+        var url = `${this.urlBase}${this.url}`
+        var req = fetch(url, this._httpOptions())
+        req.then(res => {
+          console.log(res)
+          this.responseHeader = res.header
+          console.log(res.header)
+          return res.json()
+        })
+        .then(data => {
+          console.log(data)
+          this.responseData = data
+        })
+      }
+    })
+  </script>
+</dom-module>

@@ -1,0 +1,12 @@
+.row
+  .col-md-8.col-md-offset-2
+    %h3 Sign In
+    %form{ action: '/hack-app/sign-in', method: :post }
+      .form-group
+        %label Email
+        %input.form-control{ type: :email, name: 'user[email]' }
+      .form-group
+        %label Password
+        %input.form-control{ type: :password, name: 'user[password]' }
+      %input.btn.btn-default{ type: :submit, value: 'Sign In' }
+    %a{ href: '/hack-app/sign-up' } Sign Up

@@ -1,0 +1,113 @@
+
+<link rel="import" href="/components/current-slide.html">
+
+<dom-module id="slides-app">
+  <template>
+    <style>
+      :host {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url("/images/background.jpeg");
+      }
+      .buttons {
+        position: fixed;
+        bottom: 30px;
+        right: 100px;
+      }
+    </style>
+    <current-slide current-slide-data="{{currentSlide}}"></current-slide>
+    <div class="buttons">
+      <button class="progress-btn prev" on-click="prevSlide">Prev</button>
+      <button class="progress-btn next" on-click="nextSlide">Next</button>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'slides-app',
+
+      properties: {
+        slides: {
+          type: Array
+        },
+        currentSlide: {
+          type: Object
+        },
+        currentPosition: {
+          type: Number,
+          computed: '_setCurrentPosition(currentSlide)'
+        }
+      },
+
+      ready: function() {
+        fetch('/slides').then((res) => {
+          res.json().then((data) => {
+            this.slides = data
+            console.log(data)
+            console.log(this.checkPathSlidePosition())
+            this.changeSlide(this.checkPathSlidePosition())
+            console.log(this.currentSlide)
+          })
+        })
+      },
+
+      checkPathSlidePosition: function() {
+        var hash = location.hash
+        if (!!hash) {
+          var match = hash.match(/slide-(\d+)/)
+          return Number(match[1])
+        } else {
+          return 1
+        }
+      },
+
+      changeSlide: function(position) {
+        location.hash = 'slide-' + position
+        var slideData = this.slides.filter((s) => position === s.position)[0]
+        if (slideData) {
+          this.currentSlide = slideData
+        } else {
+          this.currentSlide = {
+            name: '404 slide',
+            type: 'title-slide',
+            sections: {
+              main: {
+                title: 404,
+                subtitle: `there appears to be no slide at position ${position}`
+              }
+            }
+          }
+        }
+      },
+
+      prevSlide: function(e) {
+        var nextPosition = this.currentPosition - 1
+        if (nextPosition > 0) {
+          this.changeSlide(nextPosition)
+        } else {
+          alert('cannot go past the first slide')
+        }
+      },
+
+      nextSlide: function(e) {
+        var nextPosition = this.currentPosition + 1
+        if (this._validPostions(nextPosition)) {
+          this.changeSlide(nextPosition)
+        } else {
+          alert('invalid slide position next')
+        }
+      },
+
+      _validPostions: function(position) {
+        var validPositions = this.slides.map((s) => s.position)
+        return validPositions.indexOf(position) > -1
+      },
+
+      _setCurrentPosition: function(currentSlide) {
+        return currentSlide.position
+      }
+    })
+  </script>
+</dom-module>

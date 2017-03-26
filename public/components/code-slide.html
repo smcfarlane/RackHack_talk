@@ -1,0 +1,53 @@
+<dom-module id="code-slide">
+  <template>
+    <style>
+      :host {
+        height: 80vh;
+      }
+      h1 {
+        width: 100%;
+        height: 10vh;
+        font-size: 72px;
+        text-align: center;
+      }
+      #content {
+        font-size: 2em;
+        height: 600px;
+      }
+    </style>
+    <h1>{{title}}</h1>
+    <div id="content">
+      <!-- <textarea id="code"></textarea> -->
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'code-slide',
+
+      properties: {
+        sections: {
+          type: Object,
+          observer: '_setupNewSlide'
+        },
+        title: String,
+        code: String,
+        codemirror: Object
+      },
+
+      _setupNewSlide: function(sections) {
+        this.title = sections.title
+        this.code = sections.code
+        this.codemirror = CodeMirror(this.$.content, {
+          lineNumbers: true,
+          value: sections.code,
+          mode: 'ruby',
+          theme: 'solarized',
+          lineWrapping : false,
+          autoRefresh:true,
+          viewportMargin: 15
+        })
+      },
+
+    })
+  </script>
+</dom-module>

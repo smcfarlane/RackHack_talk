@@ -1,0 +1,27 @@
+%html
+  %head
+    %title Hack App
+    -# %link{ rel: :stylesheet, src: '/assets/bootstrap/dist/css/bootstrap.css' }
+    %link{ rel: :stylesheet, href: '/assets/bootswatch/journal/bootstrap.css'}
+  %body
+    %header.navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          %a.navbar-brand{ href: '/hack-app'} Hack App
+        .navbar-collapse#navbar-main
+          %ul.nav.navbar-nav.navbar-right
+            - if @current_user
+              %li
+                %p.navbar-text= @current_user.name if @current_user
+              %li
+                %a{ href: '/hack-app/sign-out' } Sign Out
+            - else
+              %li
+                %a{ href: '/hack-app/sign-in' } Sign In
+
+      %ul
+    %main{ style: 'margin-top: 80px' }
+      .container
+        = yield
+        %footer
+          = haml :footer
