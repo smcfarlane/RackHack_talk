@@ -14,12 +14,12 @@ namespace 'slides' do
         content['position'] = content['position'].to_i + 1
         File.delete(file_name)
         File.write(
-          "./content/#{content['position']}_#{match[2]}",
+          "./content/#{content['position'].to_s.rjust(3, '0')}_#{match[2]}",
           content.to_yaml
         )
       end
       new_slide = { 'name' => name, 'position' => num }
-      File.write("./content/#{num}_#{name}.yml", new_slide.to_yaml)
+      File.write("./content/#{num.to_s.rjust(3, '0')}_#{name}.yml", new_slide.to_yaml)
     end
   end
 end

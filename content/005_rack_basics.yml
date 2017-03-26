@@ -5,8 +5,14 @@ type: list-slide
 sections:
   title: Rack Basics
   bullet_list:
-    - Simply a function + Environment
-    - Rack app is just a Proc
-    - Environment is a set of details from the request
-    - the return value is an array with a status, headers, and body
-    - "[ 200, { 'content-type' => 'text/html' }, [ body ] ]"
+    - >
+      Simply a function that recieved variables
+       from the request
+    - So a Rack app is just a Proc
+    - |
+      Return value of a rack app needs to be:
+      <pre>[
+        200, # Status Code
+        {'content-type'=>'text/html'}, # Headers
+        [body] # Body
+      ]</pre>
