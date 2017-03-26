@@ -5,33 +5,39 @@ require 'rack'
 class Hack::Logger
   attr_accessor :request, :logger
 
-  def initialize(app, file_logger: nil, std_out_logger: nil)
+  def initialize(app, file_log: nil, stdout_log: nil)
     @app = app
-    @file_logger = file_logger
-    # default logger to file in ./log/app.log, split at 10mb
+    @file_log = file_log
+    # default logger to file
+    # in ./log/app.log, split at 10mb
     # keep 10 files
-    @file_logger ||= Logger.new('./log/app.log', 10, 10_485_760)
-    @std_out_logger = std_out_logger
-    @std_out_logger ||= Logger.new(STDOUT)
-    @logger = Multilogger.new(@file_logger, @std_out_logger)
+    @file_log ||= Logger.new(
+      './log/app.log',
+      10,
+      10_485_760
+    )
+    @stdout_log = stdout_log
+    @stdout_log ||= Logger.new(STDOUT)
+    @logger = Hack::Multilogger.new(
+      @file_log,
+      @std_out_logger
+    )
   end
 
   def call(env)
     env[Rack::RACK_LOGGER] = @logger
     @request = Rack::Request.new(env)
-    log
+    request.logger.info(standard_message)
     response = @app.call(env)
-    request.logger.info('--- Request Ended ---')
     response
   end
 
-  def log
-    stdmsg = "[#{request.request_method}] #{request.url}"
-    request.logger.info(stdmsg)
+  def standard_message
+    "[#{request.request_method}] #{request.url}"
   end
 end
 
-class Multilogger
+class Hack::Multilogger
   def initialize(*loggers)
     @loggers = loggers
   end

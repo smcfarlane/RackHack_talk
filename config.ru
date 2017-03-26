@@ -10,18 +10,8 @@ require_relative 'app/builders/rack_contrib_example'
 require_relative 'app/middleware/router'
 require_relative 'app/main'
 require_relative 'hack/app'
-require_relative 'hack/middleware/spam_fighter'
-require_relative 'hack/middleware/custom_logger'
-
-class Integer
-  def minutes
-    self
-  end
-
-  def ago
-    Time.now - self
-  end
-end
+require_relative 'hack/middleware/spam_fighter/spam_fighter'
+require_relative 'hack/middleware/logger/logger'
 
 use Rack::BounceFavicon
 

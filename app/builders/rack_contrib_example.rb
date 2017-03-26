@@ -46,7 +46,7 @@ module Slides
         run lambda {|env|
           content = "
 <h1>
-  timezone offset: #{env['rack.timezone.utc_offset'] / 60 / 60} hours
+  timezone offset: #{env['rack.timezone.utc_offset'].to_i / 60 / 60} hours
 </h1>"
           content += "
 <script>#{Rack::TimeZone::Javascript}\nsetTimezoneCookie()</script>"

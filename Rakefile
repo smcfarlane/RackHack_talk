@@ -1,23 +1,26 @@
 require 'yaml'
 require_relative 'db/config'
 
-task :new_slide, [:slide_name, :slide_num] do |_t, args|
-  re = /(\d{1,2})_([\S]+)/
-  name = args[:slide_name]
-  num = args[:slide_num].to_i
-  Dir['./content/*.yml'].each do |file_name|
-    match = file_name.match(re)
-    if match[1].to_i >= num
-      content = YAML.load(File.read(file_name))
-      content['position'] = content['position'].to_i + 1
-      File.delete(file_name)
-      File.write(
-        "./content/#{content['position']}_#{match[2]}",
-        content.to_yaml
-      )
+namespace 'slides' do
+  desc 'create a new slide at location'
+  task :new, [:slide_name, :slide_num] do |_t, args|
+    re = /(\d{1,2})_([\S]+)/
+    name = args[:slide_name]
+    num = args[:slide_num].to_i
+    Dir['./content/*.yml'].each do |file_name|
+      match = file_name.match(re)
+      if match[1].to_i >= num
+        content = YAML.load(File.read(file_name))
+        content['position'] = content['position'].to_i + 1
+        File.delete(file_name)
+        File.write(
+          "./content/#{content['position']}_#{match[2]}",
+          content.to_yaml
+        )
+      end
+      new_slide = { 'name' => name, 'position' => num }
+      File.write("./content/#{num}_#{name}.yml", new_slide.to_yaml)
     end
-    new_slide = { name: name, position: num }
-    File.write("./content/#{num}_#{name}.yml", new_slide.to_yaml)
   end
 end
 
