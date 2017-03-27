@@ -22,7 +22,7 @@ module Slides
         use Slides::ParseQueryParams
         use Slides::AppendToBody, ' this was added by middleware'
         run lambda { |env|
-          content = "this is the path: #{env['PATH_INFO']}\n"
+          content = "the path: #{env['PATH_INFO']}\n"
           env['clean_params'].each do |key, value|
             content << "  key: #{key}, value: #{value}\n"
           end

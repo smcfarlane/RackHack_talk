@@ -1,6 +1,6 @@
 ---
 name: Middleware Example Code
-position: 11
+position: 12
 type: code-slide
 sections:
   title: Middleware Example Code
@@ -9,7 +9,7 @@ sections:
     use ParseQueryParams
     use AppendToBody, ' this was added by middleware'
     run lambda { |env|
-      content = "this is the path: #{env['PATH_INFO']}\n"
+      content = "the path: #{env['PATH_INFO']}\n"
       env['clean_params'].each do |key, value|
         content << "  key: #{key}, value: #{value}\n"
       end
@@ -23,13 +23,14 @@ sections:
       end
 
       def call(env)
-        env['clean_params'] = parse_query_params(env['QUERY_STRING'])
+        params = parse_query(env['QUERY_STRING'])
+        env['clean_params'] = params
         @app.call(env)
       end
 
       private
 
-      def parse_query_params(params)
+      def parse_query(params)
         parts = params.split('&')
         parts.each_with_object({}) do |part, hash|
           key, value = part.split('=')

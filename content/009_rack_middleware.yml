@@ -8,12 +8,4 @@ sections:
     - It is a class
     - The initialize method recieves the app as the first argument
     - It must have a call method like a rack app
-    - >
-      When you call @app.call(env) the rest of the middleware
-      and the app will run
-    - >
-      You can add values to `env` to pass it on to following
-      middleware and the app
-    - >
-      You can get the result of @app.call(env) and change it
-      or add to it
+    - Beware instance variables,  they are maintained between requests

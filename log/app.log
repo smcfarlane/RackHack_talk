@@ -9,3 +9,9 @@ I, [2017-03-26T13:52:13.126430 #26101]  INFO -- : [GET] http://localhost:3000/ha
 I, [2017-03-26T14:04:09.719717 #31045]  INFO -- : [GET] http://localhost:3000/hack-app
 I, [2017-03-26T14:13:40.363821 #32688]  INFO -- : [GET] http://localhost:3000/hack-app
 I, [2017-03-26T14:18:12.468425 #34611]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-26T17:47:12.022144 #82552]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-26T17:47:32.661372 #82552]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-26T17:48:30.588321 #83078]  INFO -- : [GET] http://localhost:3000/hack-app
+I, [2017-03-26T17:48:36.982644 #83078]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-26T17:48:38.140482 #83078]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-03-26T17:48:39.460990 #83078]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers

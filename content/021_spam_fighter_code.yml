@@ -1,6 +1,6 @@
 ---
 name: spam_fighter_code
-position: 20
+position: 21
 type: code-slide
 sections:
   title: Spam Fighter Middleware

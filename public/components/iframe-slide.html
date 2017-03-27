@@ -160,8 +160,22 @@
         margin-top: 0px;
       }
 
+      .back-btn {
+        float: right;
+        margin-left: 10px;
+      }
+
+      .back-btn div {
+        height: 20px;
+        width: 15px;
+        margin-top: -10px;
+        padding-top: 11px;
+        border-radius: 4px;
+        background-color: #fff;
+      }
+
       .url-bar {
-        width: 60%;
+        width: 55%;
         height: 28px;
         box-shadow: none;
         border-radius: 5px;
@@ -220,15 +234,18 @@
             <a class="zoombutton" href="#"><span><strong>+</strong></span></a>
             <!-- zoom button link -->
           </div>
+          <div id="back" class="back-btn" on-click="goBack">
+            <div><span class="fa fa-chevron-left fa-3"></span></div>
+          </div>
         </div>
         <div id="urlBar" class="url-bar">
-          <input id="urlInput" type="text" value="{{url::change}}">
+          <input id="urlInput" type="text" value="{{displayUrl::change}}">
           <span class="fa fa-refresh fa-3" on-click="refreshIframe"></span>
         </div>
         <!-- window title -->
       </div>
       <div id="content" class="content">
-        <iframe id="browser" src="{{url}}" frameborder="0"></iframe>
+        <iframe id="browser" frameborder="0"></iframe>
       </div>
     </div>
   </template>
@@ -243,13 +260,34 @@
         },
         title: String,
         url: {
-          type: String
-        }
+          type: String,
+          observer: 'setUrl'
+        },
+        displayUrl: {
+          type: String,
+          observer: '_displayUrlChanged'
+        },
+        iframeUrl: {
+          type: String,
+          observer: '_iframeUrlChanged'
+        },
+        iframeUrlInterval: Number
       },
 
       listeners: {
         'urlInput.focus': '_inputFocus',
         'urlInput.blur': '_inputBlur'
+      },
+
+      attached: function() {
+        this.iframeUrlInterval = setInterval(function() {
+          this.iframeUrl = this.$.browser.contentWindow.location.pathname
+          console.log(this.iframeUrl)
+        }.bind(this), 1000)
+      },
+
+      dettached: function() {
+        clearInterval(this.iframeUrlInterval)
       },
 
       _inputFocus: function(e) {
@@ -263,6 +301,30 @@
       _setupNewSlide: function(sections) {
         this.title = sections.title
         this.url = sections.iframe.url_base
+        this.displayUrl = this.url
+      },
+
+      _displayUrlChanged: function(displayUrl) {
+        console.log('displayUrlChanged', displayUrl, this.iframeUrl)
+        if (displayUrl !== this.iframeUrl) {
+          console.log('url set by display url')
+          this.setUrl(displayUrl)
+        }
+      },
+
+      _iframeUrlChanged: function(iframeUrl) {
+        if (this.displayUrl !== iframeUrl) {
+          this.displayUrl = iframeUrl
+        }
+      },
+
+      setUrl: function(url) {
+        console.log(`set url to ${url}`)
+        this.$.browser.src = url
+      },
+
+      goBack: function() {
+        this.$.browser.contentWindow.history.back()
       },
 
       refreshIframe: function(e) {

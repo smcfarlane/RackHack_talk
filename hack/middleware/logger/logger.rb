@@ -20,7 +20,7 @@ class Hack::Logger
     @stdout_log ||= Logger.new(STDOUT)
     @logger = Hack::Multilogger.new(
       @file_log,
-      @std_out_logger
+      @stdout_log
     )
   end
 
