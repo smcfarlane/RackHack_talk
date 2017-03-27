@@ -11,17 +11,17 @@ module Slides
         map '/test' do
           use Rack::Backstage, 'public/backstage.html'
           run lambda {|_env|
-            [200, {}, ['The backstage file is not blocking this from being shown']]
+            [200, {}, ['<h1>The backstage file is not blocking this from being shown</h1>']]
           }
         end
         run lambda {|env|
           case env['PATH_INFO']
           when /create-file/
             File.write('public/backstage.html', '<h1>Backstage File</h1>')
-            [200, {}, ['backstage file created']]
+            [200, {}, ['<h1>backstage file created</h1>']]
           when /delete-file/
             File.delete('public/backstage.html')
-            [200, {}, ['backstage file deleted']]
+            [200, {}, ['<h1>backstage file deleted</h1>']]
           else
             html = '
 <html>

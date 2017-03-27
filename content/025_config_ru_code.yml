@@ -1,13 +1,13 @@
 ---
 name: config_ru_code
-position: 23
+position: 25
 type: code-slide
 sections:
   title: Config.ru for Hack App
   code: |
     use Rack::NestedParams
     use Hack::Logger
-    use Hack::SpamFighter, 3, 120, [
+    use Hack::SpamFighter, 3, 60, [
       { method: :get, path: %r{/for/spammers} }
     ]
     use Rack::Session::Pool, expire_after: 2_592_000

@@ -28,8 +28,7 @@ class Hack::Logger
     env[Rack::RACK_LOGGER] = @logger
     @request = Rack::Request.new(env)
     request.logger.info(standard_message)
-    response = @app.call(env)
-    response
+    @app.call(env)
   end
 
   def standard_message

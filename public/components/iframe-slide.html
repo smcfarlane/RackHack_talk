@@ -166,12 +166,13 @@
       }
 
       .back-btn div {
-        height: 20px;
-        width: 15px;
-        margin-top: -10px;
-        padding-top: 11px;
+        height: 14px;
+        width: 32px;
+        margin-top: -3px;
+        padding-top: 7px;
         border-radius: 4px;
-        background-color: #fff;
+        border: 1px solid #ccc;
+        background-color: #eee;
       }
 
       .url-bar {
@@ -281,8 +282,11 @@
 
       attached: function() {
         this.iframeUrlInterval = setInterval(function() {
-          this.iframeUrl = this.$.browser.contentWindow.location.pathname
-          console.log(this.iframeUrl)
+          try {
+            this.iframeUrl = this.$.browser.contentWindow.location.pathname
+          } catch(e) {
+            clearInterval(this.iframeUrlInterval)
+          }
         }.bind(this), 1000)
       },
 

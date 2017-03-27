@@ -43,7 +43,7 @@ end
 map '/hack-app' do
   use Rack::NestedParams
   use Hack::Logger
-  use Hack::SpamFighter, 3, 120, [
+  use Hack::SpamFighter, 3, 60, [
     { method: :get, path: %r{/for/spammers} }
   ]
   use Rack::Session::Pool, expire_after: 2_592_000
