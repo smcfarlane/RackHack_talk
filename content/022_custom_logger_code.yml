@@ -1,6 +1,6 @@
 ---
 name: custom_logger_code
-position: 21
+position: 22
 type: code-slide
 sections:
   title: Custom Logger Middleware

@@ -1,8 +1,8 @@
 ---
 name: end_slide
-position: 26
+position: 27
 type: title-slide
 sections:
   main:
     title: The End
-    subtitle:
+    subtitle: 

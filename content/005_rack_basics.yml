@@ -8,11 +8,13 @@ sections:
     - >
       Simply a function that recieved variables
        from the request
-    - So a Rack app is just a Proc
     - |
-      Return value of a rack app needs to be:
-      <pre>[
-        200, # Status Code
-        {'content-type'=>'text/html'}, # Headers
-        [body] # Body
-      ]</pre>
+      The interface for a rack app is
+      <pre>proc { |env|
+        [
+          200, # Status Code
+          {'content-type'=>'text/html'}, # Headers
+          [body] # Body
+        ]
+      }</pre>
+    - Declared with the <pre>run</pre> method

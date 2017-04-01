@@ -1,0 +1,12 @@
+---
+name: rack_middleware
+position: 10
+type: list-slide
+sections:
+  title: Rack Middleware
+  bullet_list:
+  - It is a class
+  - The initialize method recieves the app as the first argument
+  - It must have a call method like a rack app
+  - Beware instance variables,  they are maintained between requests
+  - Declared with the <pre>use</pre> method

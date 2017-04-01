@@ -1,0 +1,14 @@
+---
+name: what_is_middleware
+position: 9
+type: list-slide
+sections:
+  title: Middleware, What is it?
+  bullet_list:
+  - |
+    For doing something done before or after
+    a request is handle by the application
+  - Authenticate requests
+  - Parse body content
+  - Set common / important headers
+  - Manipulate or check a response

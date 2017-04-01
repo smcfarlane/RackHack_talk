@@ -1,10 +1,10 @@
 ---
 name: Rack Example Code
-position: 7
+position: 8
 type: code-slide
 sections:
   title: Rack Example Code
-  code: |2+
+  code: |2
 
     run lambda { |env|
       hello_world = "hello world,
