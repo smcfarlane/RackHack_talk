@@ -8,11 +8,11 @@ module Slides
     def self.builder
       Rack::Builder.new do
         run lambda { |env|
-          hello_world = "hello world, path_info: #{env['PATH_INFO']}\n"
-          env.each do |(k, v)|
-            hello_world << "\n    #{k}: #{v}"
-          end
-          [200, {}, [hello_world]]
+          body = <<~BODY
+            hello world,
+            path_info = #{env['PATH_INFO']}
+          BODY
+          [200, {}, [body]]
         }
       end
     end

@@ -1,0 +1,53 @@
+---
+name: Middleware Example Code
+position: 13
+type: code-slide
+sections:
+  title: Middleware Example Code
+  code: |
+    # config.ru
+    use ParseQueryParams
+    use AppendToBody, ' this was added by middleware'
+    run lambda { |env|
+      content = "the path: #{env['PATH_INFO']}\n"
+      env['clean_params'].each do |key, value|
+        content << "  key: #{key}, value: #{value}\n"
+      end
+      [200, {}, [content]]
+    }
+
+    # middleware
+    class ParseQueryParams
+      def initialize(app)
+        @app = app
+      end
+
+      def call(env)
+        params = parse_query(env['QUERY_STRING'])
+        env['clean_params'] = params
+        @app.call(env)
+      end
+
+      private
+
+      def parse_query(params)
+        parts = params.split('&')
+        parts.each_with_object({}) do |part, hash|
+          key, value = part.split('=')
+          hash[key] = value
+        end
+      end
+    end
+
+    class AppendToBody
+      def initialize(app, value)
+        @app = app
+        @value = value
+      end
+
+      def call(env)
+        status, headers, body = @app.call(env)
+        content = body.last + @value
+        [status, headers, [content]]
+      end
+    end

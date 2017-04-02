@@ -1,6 +1,6 @@
 ---
 name: custom_logger
-position: 21
+position: 22
 type: list-slide
 sections:
   title: Custom Logger

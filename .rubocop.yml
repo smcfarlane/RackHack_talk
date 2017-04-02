@@ -1,12 +1,24 @@
 ---
+AllCops:
+  TargetRubyVersion: 2.4
+
 Style/Documentation:
   Enabled: false
 
 Style/ClassAndModuleChildren:
   Enabled: false
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
 Metrics/LineLength:
   Enabled: false
 
 Metrics/MethodLength:
+  Enabled: false
+
+Metrics/BlockLength:
   Enabled: false

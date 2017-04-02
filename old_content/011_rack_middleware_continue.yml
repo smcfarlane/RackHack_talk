@@ -1,0 +1,20 @@
+---
+name: rack_middleware_continue
+position: 11
+type: list-slide
+sections:
+  title: Rack Middleware Cont.
+  bullet_list:
+  - 'In middleware you have control of the execution of your app
+
+'
+  - 'When you call <pre>@app.call(env)</pre> the rest of the middleware and the app
+    will run
+
+'
+  - 'You can add values to `env` to pass it on to following middleware and the app
+
+'
+  - 'You can get the result of <pre>@app.call(env)</pre> and change it or add to it
+
+'

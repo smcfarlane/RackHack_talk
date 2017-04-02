@@ -65,3 +65,4 @@ I, [2017-03-31T17:00:46.428406 #52017]  INFO -- : [GET] http://localhost:3000/ha
 I, [2017-03-31T17:05:11.127503 #52017]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
 I, [2017-03-31T17:05:12.510819 #52017]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
 I, [2017-03-31T17:05:13.302525 #52017]  INFO -- : [GET] http://localhost:3000/hack-app/for/spammers
+I, [2017-04-01T15:39:41.415687 #26752]  INFO -- : [GET] http://localhost:3000/hack-app

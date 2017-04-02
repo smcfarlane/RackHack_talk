@@ -1,6 +1,6 @@
 ---
 name: Custom Rack Middleware
-position: 19
+position: 20
 type: list-slide
 sections:
   title: Custom Middleware
