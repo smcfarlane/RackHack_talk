@@ -1,0 +1,9 @@
+---
+name: custom_rack_middleware
+position: 19
+type: list-slide
+sections:
+  title: Custom Middleware
+  bullet_list:
+    - Custom Logger
+    - Spam Fighter

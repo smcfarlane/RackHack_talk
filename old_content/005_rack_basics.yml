@@ -5,7 +5,7 @@ type: list-slide
 sections:
   title: Rack Basics
   bullet_list:
-    - >
+    - |
       Simply a function that recieved variables
        from the request
     - |
@@ -14,7 +14,6 @@ sections:
         [
           200, # Status Code
           {'content-type'=>'text/html'}, # Headers
-          [body] # Body
+          ['body'] # Body
         ]
       }</pre>
-    - Declared with the <pre>run</pre> method

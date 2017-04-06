@@ -1,6 +1,6 @@
 ---
-name: title_slide
-position: 1
+name: Title Slide
+position: 2
 type: title-slide
 sections:
   main:

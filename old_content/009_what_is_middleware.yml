@@ -7,7 +7,7 @@ sections:
   bullet_list:
   - |
     For doing something done before or after
-    a request is handle by the application
+    a request is handle by the application, Examples:
   - Authenticate requests
   - Parse body content
   - Set common / important headers

@@ -1,8 +1,0 @@
----
-name: Backstage Example
-position: 17
-type: iframe-slide
-sections:
-  title: Backstage Example
-  iframe:
-    url_base: "/backstage-example"

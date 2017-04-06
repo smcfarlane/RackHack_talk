@@ -1,0 +1,10 @@
+---
+name: rack-picture
+position: 7
+type: content-slide
+sections:
+  main:
+    title: Rack Diagram
+    content: '<img src="/images/rack-diagram.svg" />
+
+'

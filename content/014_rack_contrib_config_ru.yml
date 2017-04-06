@@ -1,0 +1,31 @@
+---
+name: rack_contrib_config_ru
+position: 14
+type: code-slide
+sections:
+  title: Config.ru
+  code: |2
+
+    # Backstage Example
+    require 'rack/contrib/backstage'
+    use Rack::Backstage, 'public/backstage.html'
+    run lambda {|_env|
+      [200, {}, ['<h1>The backstage file is not blocking this from being shown</h1>']]
+    }
+
+    # Timezone Example
+    require 'rack/contrib/time_zone'
+    use Rack::TimeZone
+    run lambda {|env|
+      offset = env['rack.timezone.utc_offset'].to_i
+      body = <<~BODY
+        <h1>
+          timezone offset = #{offset / 60 / 60} hours
+        </h1>
+        <script>
+          #{Rack::TimeZone::Javascript}
+          setTimezoneCookie()
+        </script>
+      BODY
+      [200, {}, [body]]
+    }

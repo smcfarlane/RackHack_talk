@@ -1,0 +1,8 @@
+---
+name: middleware_example
+position: 11
+type: iframe-slide
+sections:
+  title: Middleware Example
+  iframe:
+    url_base: "/middleware-example"

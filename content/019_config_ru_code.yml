@@ -1,0 +1,17 @@
+---
+name: config_ru_code
+position: 19
+type: code-slide
+sections:
+  title: Config.ru for Hack App
+  code: |
+    use Rack::NestedParams
+    use Hack::Logger
+    # SpamFighter args, trys, timeout, watched routes
+    use Hack::SpamFighter, 3, 60, [
+      { method: :get, path: %r{/for/spammers} }
+    ]
+    use Rack::Session::Pool, expire_after: 2_592_000
+    use Rack::Protection::RemoteToken
+    use Rack::Protection::SessionHijacking
+    run Hack::App

@@ -1,0 +1,12 @@
+---
+name: Vanity slide
+position: 3
+type: content-slide
+sections:
+  main:
+    title: Steven Mcfarlane
+    content: |
+      <h3>Senior Developer at Notch8</h3>
+      <h3>Web development Consultancy</h3>
+      <h3>Twitter - @smcfarlane</h3>
+      <h3>Github - smcfarlane</h3>

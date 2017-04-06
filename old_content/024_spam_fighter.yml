@@ -5,8 +5,6 @@ type: list-slide
 sections:
   title: Spam Fighter
   bullet_list:
-  - Throttle spam requests to specific paths
-  - 'set allowable number of requests, timeframe, and paths
-
-'
-  - get spammers a custom error page
+    - Throttle spam requests to specific paths
+    - Set allowable number of requests, timeframe, and paths
+    - Give spammers a custom error page

@@ -1,0 +1,10 @@
+---
+name: the_end
+position: 2
+type: content-slide
+sections:
+  main:
+    title: The End
+    content: |
+      <h3>Twitter - @smcfarlane</h3>
+      <h3>Github - smcfarlane</h3>

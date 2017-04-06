@@ -1,0 +1,14 @@
+---
+name: Rack Contrib
+position: 14
+type: list-slide
+sections:
+  title: Rack Contrib
+  bullet_list:
+  - A common set of useful middleware
+  - Rack::BackStage
+  - Rack::Profiler
+  - Rack::Access
+  - Rack::TimeZone
+  - Rack::MailExceptions
+  - Rack::NestedParams

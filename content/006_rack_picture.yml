@@ -5,4 +5,4 @@ type: content-slide
 sections:
   main:
     title: Rack Diagram
-    content: '<img src="/images/rack-diagram.svg" />'
+    content: <img src="/images/rack-diagram.svg" />

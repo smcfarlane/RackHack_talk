@@ -1,0 +1,8 @@
+---
+name: hack_app
+position: 20
+type: iframe-slide
+sections:
+  title: App Testing
+  iframe:
+    url_base: "/hack-app"

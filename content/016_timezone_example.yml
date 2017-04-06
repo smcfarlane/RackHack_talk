@@ -1,0 +1,8 @@
+---
+name: timezone_example
+position: 16
+type: iframe-slide
+sections:
+  title: Timezone Example
+  iframe:
+    url_base: "/timezone-example"
