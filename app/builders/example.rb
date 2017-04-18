@@ -9,8 +9,10 @@ module Slides
       Rack::Builder.new do
         run lambda { |env|
           body = <<~BODY
+            <h1>
             hello world,
             path_info = #{env['PATH_INFO']}
+            </h1>
           BODY
           [200, {}, [body]]
         }
@@ -22,9 +24,9 @@ module Slides
         use Slides::ParseQueryParams
         use Slides::AppendToBody, ' this was added by middleware'
         run lambda { |env|
-          content = "the path: #{env['PATH_INFO']}\n"
+          content = "<h1>the path: #{env['PATH_INFO']}</h1>"
           env['clean_params'].each do |key, value|
-            content << "  key: #{key}, value: #{value}\n"
+            content << "<br><h1>  key: #{key}, value: #{value}</h1><br>"
           end
           [200, {}, [content]]
         }

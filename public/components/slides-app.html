@@ -12,18 +12,38 @@
         right: 0;
         background-image: url("/images/background.jpeg");
       }
-      .buttons {
+      .previous {
+        position: fixed;
+        z-index: 1000;
+        height: 100vh;
+        width: 100px;
+        left: 0;
+      }
+      .previous:hover {
+        box-shadow: inset 50px 0px 50px -25px rgba(66,65,67,0.65);
+        transition: box-shadow 0.5s;
+      }
+      .next {
+        position: fixed;
+        z-index: 1000;
+        height: 100vh;
+        width: 100px;
+        right: 0;
+      }
+      .next:hover {
+        box-shadow: inset -50px 0px 50px -25px rgba(70,66,57,0.65);
+        transition: box-shadow 0.5s;
+      }
+      .logo {
         position: fixed;
         bottom: 20px;
         right: 20px;
       }
     </style>
     <current-slide current-slide-data="{{currentSlide}}"></current-slide>
-    <div class="buttons">
-      <button class="progress-btn prev" on-click="prevSlide">Prev</button>
-      <br>
-      <button class="progress-btn next" on-click="nextSlide">Next</button>
-    </div>
+    <div class="previous" on-click="prevSlide"></div>
+    <div class="next" on-click="nextSlide"></div>
+    <img src="/images/notch8-60.png" class="logo" />
   </template>
   <script>
     Polymer({

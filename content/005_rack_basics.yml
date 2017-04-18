@@ -5,15 +5,15 @@ type: list-slide
 sections:
   title: Rack Basics
   bullet_list:
-  - |
-    Simply a function that recieved variables
-     from the request
-  - |
-    The interface for a rack app is
-    <pre>proc { |env|
-      [
-        200, # Status Code
-        {'content-type'=>'text/html'}, # Headers
-        ['body'] # Body
-      ]
-    }</pre>
+    - |
+      Simply a function that recieved variables
+       from the request
+    - |
+      <div>The interface for a rack app is</div>
+      <pre>proc { |env|
+        [
+          200, # Status Code
+          {'content-type'=>'text/html'}, # Headers
+          ['body'] # Body
+        ]
+      }</pre>

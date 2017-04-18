@@ -6,5 +6,26 @@ sections:
   main:
     title: The End
     content: |
-      <h3>Twitter - @smcfarlane</h3>
-      <h3>Github - smcfarlane</h3>
+      <table style="width: 100%;">
+        <tbody>
+          <tr>
+            <td>
+              <h3 style="text-align: left; margin: 0">
+                Steven McFarlane
+              </h3>
+            </td>
+            <td>
+              <h3 style="text-align: center; margin: 0;">
+                Twitter - @smcfarlane
+              </h3>
+              <h3 style="text-align: center; margin-top: 5px;">
+                Github - smcfarlane
+              </h3>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="position: relative; height: 450px; overflow: hidden;">
+        <img src="/images/notch8-group-shot.jpg"
+             style="width: 100%; position: relative;" />
+      </div>
