@@ -1,9 +1,20 @@
 ---
 name: custom_rack_middleware
 position: 18
-type: list-slide
+type: content-slide
 sections:
-  title: Custom Middleware
-  bullet_list:
-  - Custom Logger
-  - Spam Fighter
+  main:
+    title: Custom Middleware
+    content: |
+      <table style="width: 100%; margin-top: 200px;">
+        <tbody>
+          <tr>
+            <td style="text-align: center; font-size: 2.1em;">
+              Custom Logger
+            </td>
+            <td style="text-align: center; font-size: 2.1em;">
+              Spam Fighter
+            </td>
+          </tr>
+        </tbody>
+      </table>

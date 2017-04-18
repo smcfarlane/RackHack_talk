@@ -1,14 +1,20 @@
 ---
 name: what_is_middleware
 position: 9
-type: list-slide
+type: content-slide
 sections:
-  title: Middleware, What is it?
-  bullet_list:
-  - |
-    For doing something done before or after
-    a request is handle by the application, Examples:
-  - Authenticate requests
-  - Parse body content
-  - Set common / important headers
-  - Manipulate or check a response
+  main:
+    title: Middleware, What is it?
+    content: |
+      <style>
+      </style>
+      <h2 style="font-weight: normal;">
+        For doing something done before or after
+        a request is handle by the application, Examples:
+      </h2>
+      <ul>
+        <li>Authenticate requests</li>
+        <li>Parse body content</li>
+        <li>Set common / important headers</li>
+        <li>Manipulate or check a response</li>
+      </ul>

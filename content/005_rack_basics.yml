@@ -13,7 +13,9 @@ sections:
       <pre>proc { |env|
         [
           200, # Status Code
-          {'content-type'=>'text/html'}, # Headers
+          { # Headers
+            'content-type'=>'text/html'
+          },
           ['body'] # Body
         ]
       }</pre>
