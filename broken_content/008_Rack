@@ -1,8 +1,0 @@
----
-name: Rack Example
-position: 8
-type: iframe-slide
-sections:
-  title: Rack Example
-  iframe:
-    url_base: "/example"

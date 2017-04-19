@@ -1,8 +1,0 @@
----
-name: Title Slide
-position: 2
-type: title-slide
-sections:
-  main:
-    title: Rack::Hack
-    subtitle: A tour rack in a ruby web app
