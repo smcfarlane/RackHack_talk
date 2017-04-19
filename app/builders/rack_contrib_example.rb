@@ -11,25 +11,30 @@ module Slides
         map '/test' do
           use Rack::Backstage, 'public/backstage.html'
           run lambda { |_env|
-            [200, {}, ['<h1>The backstage file is not blocking this from being shown</h1>']]
+            [200, {}, ['<html><h1 style="font-size: 4em;">The backstage file is not blocking this from being shown</h1></html>']]
           }
         end
         run lambda { |env|
           case env['PATH_INFO']
           when /create-file/
-            File.write('public/backstage.html', '<h1>Backstage File</h1>')
-            [200, {}, ['<h1>backstage file created</h1>']]
+            File.write('public/backstage.html', '<h1 style="font-size: 4em;">Backstage File :)</h1>')
+            [200, {}, ['<html><h1 style="font-size: 4em;">Backstage file created</h1></html>']]
           when /delete-file/
             File.delete('public/backstage.html')
-            [200, {}, ['<h1>backstage file deleted</h1>']]
+            [200, {}, ['<html><h1 style="font-size: 4em;">Backstage file deleted</h1></html>']]
           else
             html = <<~HTML
               <html>
+                <style>
+                  body {
+                    font-size: 2em;
+                  }
+                </style>
                 <body>
                   <h1>Backstage Example</h1>
                   <ul>
-                    <li><a href="/backstage-example/test">test</a></li>
-                    <li><a href="/backstage-example/create-file">Create file</a></li>
+                    <li><a href="/backstage-example/test">Test</a></li>
+                    <li><a href="/backstage-example/create-file">Create File</a></li>
                     <li><a href="/backstage-example/delete-file">Delete File</a></li>
                   </ul>
                 </body>
@@ -47,13 +52,15 @@ module Slides
         run lambda { |env|
           offset = env['rack.timezone.utc_offset'].to_i
           body = <<~BODY
-            <h1>
-              timezone offset = #{offset / 60 / 60} hours
-            </h1>
-            <script>
-              #{Rack::TimeZone::Javascript}
-              setTimezoneCookie()
-            </script>
+            <html>
+              <h1>
+                timezone offset = #{offset / 60 / 60} hours
+              </h1>
+              <script>
+                #{Rack::TimeZone::Javascript}
+                setTimezoneCookie()
+              </script>
+            </html>
           BODY
           [200, {}, [body]]
         }
